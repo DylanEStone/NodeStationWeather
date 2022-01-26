@@ -68,3 +68,9 @@ Emitted 'error' event on Server instance at:
 { AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
 Station Weather app listening at http://localhost:80
 Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
