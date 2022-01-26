@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo nohup nodejs server.js \
+    --be_ip 10.128.0.6 \
+    --fe_ip 34.121.153.203 &

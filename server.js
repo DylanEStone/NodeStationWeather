@@ -12,7 +12,7 @@ if (result.error) {
 console.log(result.parsed)
 
 const app = express();
-const port = 8080;
+const port = 80;
 
 // DATABASE STUFF
 import sqlite3 from 'sqlite3';

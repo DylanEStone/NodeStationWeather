@@ -1,0 +1,70 @@
+fs.js:497
+  handleErrorFromBinding(ctx);
+  ^
+
+Error: ENOENT: no such file or directory, open '/home/dylanevanstone/NodeStationWeather/.env'
+    at Object.openSync (fs.js:497:3)
+    at Object.readFileSync (fs.js:393:35)
+    at Object.config (/home/dylanevanstone/NodeStationWeather/node_modules/dotenv/lib/main.js:81:29)
+    at file:///home/dylanevanstone/NodeStationWeather/server.js:6:23
+    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/dylanevanstone/NodeStationWeather/.env'
+}
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+events.js:377
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/dylanevanstone/NodeStationWeather/node_modules/express/lib/application.js:618:24)
+    at file:///home/dylanevanstone/NodeStationWeather/server.js:82:5
+    at ModuleJob.run (internal/modules/esm/module_job.js:183:25)
+    at async Loader.import (internal/modules/esm/loader.js:178:24)
+    at async Object.loadESM (internal/process/esm_loader.js:68:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1358:8)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+{ AUTH_TOKEN: '0dcfddcae5072808bdca1ec2fabb515f' }
+Station Weather app listening at http://localhost:80
+Connected to the SQlite database.
